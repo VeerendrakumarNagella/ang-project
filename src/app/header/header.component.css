@@ -1,0 +1,22 @@
+header {
+    height: 100px;
+    background-color:lightgray;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+header nav ul a {
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: coral;
+    margin: 0 9px;
+    border-radius: 9px;
+    text-decoration: none;
+    color: dimgray;
+}
